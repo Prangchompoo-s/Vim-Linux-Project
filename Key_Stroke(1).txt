@@ -1,0 +1,49 @@
+Various Vim Command  
+
+  Save Key Stroke 
+:w = Save without quite
+:wq = Save and quit
+ZZ <Shift-zz> = Save and quit
+ 
+ Movement Key Stroke
+H = left
+K = Down
+J = Up
+L = right 
+W = Use to move to the next word(word).If W moves to the next word. ignore punctuation mark such as - or parentheses.
+E = Use to move to the end word(back).If will E move to the end of the value by counting the punctuation marks.I't also that word.
+B = Use to move the beginning of a word(back).If B will move the beginning of a word by counting the punctuation marks.I't also thatword.
+Press 0<Zero> = to go to the beginning of the line.
+
+  Exit Key stroke
+:q + <Enter>  = Exit without save
+:q! + <Enter> = Force exit without save 
+ZQ< + <Enter> = Exit without save
+
+  Delete Key Stroke
+dw = Delete word 
+db = Delete word backward
+dd = Delete the line
+  
+
+ Search Key Stroke                                      
+/<search_word> = Search forword
+?<search_word> = Search backword
+:s/<search>/replace = Search replace 
+:s/<search>/replace/g = Search and replace all in file
+:s<search>/replace/gc = Search and replace all in file with confirm
+
+  Screen Moving Key Stroke
+H = Move the Cursor to the top of the  screen
+M = Middle of the screen
+L = Bottom of the screen
+gg = Go to the top of the file
+G = Go to the bottom of the file
+   move the page by 
+Ctrl + e = Move the line
+Ctrl + d = Move halfway
+Ctrl + f = Move one page
+   scroll the page down by
+Ctrl + y = Move one line
+Ctrl + u = Move halfway
+Ctrl + b = Move one page
